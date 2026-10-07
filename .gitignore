@@ -1,0 +1,66 @@
+# ── Зависимости ──────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+.pnpm-store/
+.yarn/cache
+.yarn/install-state.gz
+
+# ── Сборка и кеш ─────────────────────────────────────────────
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+*.tsbuildinfo
+.turbo/
+.nx/
+.cache/
+
+# ── Тесты и покрытие ────────────────────────────────────────
+coverage/
+.nyc_output/
+*.lcov
+
+# ── Переменные окружения и секреты ──────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ── Логи ─────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+
+# ── IDE и редакторы ─────────────────────────────────────────
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# ── ОС ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── Временные файлы ─────────────────────────────────────────
+tmp/
+temp/
+*.tmp
+
+# ── OpenCode (временные данные, но не конфигурация) ──────────
+# Сами skills/agents/commands коммитим, а рантайм-состояние — нет
+.opencode/cache/
+.opencode/logs/
+.opencode/sessions/
+.opencode/state.json
+.opencode/node_modules/
